@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+.navbar-brand {
+  font-size: 2rem;
+  color: black;
+  padding: 10px;
+}
+.navbar-brand:hover {
+  color: red;
+}
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: yellow;
+}
+.column1 {
+  padding-top: 30px;
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 600px;
+  background-image: url(/img/girl2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ 
+  
+}
+
+.column2 {
+  padding-top: 30px;
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 600px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.btn1 {
+  color: white;
+  background-color: red;
+}
+.btn1:hover {
+  background-color: green;
+}
+.btn {
+  color: black;
+  font-weight: bold;
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: green;
+  }
+  75% {
+    background-color: brown;
+  }
+  100% {
+    background-color: red;
+  }
+}
+.deep {
+  color: grey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+.para2 {
+  color: darkblue;
+  font-weight: bold;
+}
+.pos1 {
+  position: fixed;
+  bottom: 0px;
+  right: 900px;
+  padding: 0px;
+  margin-bottom: 120px;
+  border: 2px solid white;
+  background-color: red;
+}
+.pos1:hover{
+  background-color: darkgreen;
+
+}
+.bottom {
+  position: fixed;
+  bottom: 0px;
+  right: 900px;
+  padding: 0px;
+  margin-bottom: 70px;
+}
+
+
+.carousel-item {
+  height: 70vh;
+  min-height: 200px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
